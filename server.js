@@ -23,7 +23,7 @@ var articlesController = require('./controllers/articles.js');
 server.use('/articles', articlesController);
 
 server.get('/', function (req, res) {
-  res.render('welcome');
+  res.render('index.ejs');
 });
 
 mongoose.connect('mongodb://localhost:27017/wiki');

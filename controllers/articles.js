@@ -1,16 +1,17 @@
 var express = require('express'),
     router = express.Router(),
-    Article = require('../models/article.js');
+    Article = require('../models/article.js').Article;
+    Section = require('../models/articles.js').Section;
 
 // remember, every route has /posts before it in here...
 
 // INDEX
 router.get('/', function (req, res) {
-  Post.find({}, function (err, articlesArray) {
+  Article.find({}, function (err, articlesArray) {
     if (err) {
       console.log(err);
     } else {
-      res.render('posts/index', { articles: articlesArray });
+      res.render('articles/index', { articles: articlesArray });
     };
   });
 });
