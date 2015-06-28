@@ -2,7 +2,7 @@
 
 Hello  Everyone!
 
-![alt tag](http://www.mytinyphone.com/uploads/users/nony17/491796.gif)
+![alt tag](http://static.comicvine.com/uploads/original/10/107566/2118693-ryu_shinkuu_hadouken_gif_by_mathewwite-d2zk3ez.gif)
 
 We have gathered here to create a Wiki Appa, to get all our knowledge of html/css/JS/node.js/node modules/MongoDB and Mongoose, we will be using jQuery too.
 
