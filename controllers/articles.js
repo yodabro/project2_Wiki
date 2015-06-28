@@ -1,7 +1,7 @@
 var express = require('express'),
     router = express.Router(),
     Article = require('../models/article.js').Article;
-    Section = require('../models/articles.js').Section;
+    Section = require('../models/article.js').Section;
 
 // remember, every route has /posts before it in here...
 
@@ -11,7 +11,7 @@ router.get('/', function (req, res) {
     if (err) {
       console.log(err);
     } else {
-      res.render('articles/index', { articles: articlesArray });
+      res.render('articles/index.ejs', { articles: articlesArray });
     };
   });
 });
@@ -29,14 +29,17 @@ router.post('/', function (req, res) {
     if (err) {
       console.log(err);
     } else {
-      res.redirect(301, '/article');
+      res.redirect(301, '/articles');
     };
   });
 });
 
 // SHOW
 router.get('/:id', function (req, res) {
-
+  var id = req.params.id
+  Article.findById(id, function (err, article) {
+    res.render('articles/show', { article : article })
+  })
 });
 
 // DELETE

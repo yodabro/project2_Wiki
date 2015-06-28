@@ -1,0 +1,10 @@
+<h1><%= article.title %></h1>
+<h4><em><%= article.author %></em></h4>
+<p><%= article.content %></p>
+<h4><%= article.timestamp %></h4>
+
+<a href="/articles/<%=articles._id%>/edit">Edit</a>
+
+<form action="/articles/<%= articles._id %>/?_method=DELETE" method="post">
+  <input type="submit" value="Delete">
+</form>

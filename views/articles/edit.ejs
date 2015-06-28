@@ -1,0 +1,17 @@
+<form action="views/articles/<%=._id%>/?_method=PATCH" method="post">
+
+  <label>Something to change? </label>
+  <input type="text" name="article[title]" value="<%= article.title %>" />
+
+  <label>Additional info: </label>
+  <textarea name="article[content]"> <%= article.content %> </textarea>
+
+  <label>Select a Category</label>
+  <select name="article[category]">
+    <option value="cat1">Categ1</option>
+    <option value="cat2">Categ2</option>
+    <option value="cat3">Categ3</option>
+    <option value="cat4">Categ4</option>
+  </select></br>
+  <input type="submit" value="Update article" />
+</form>

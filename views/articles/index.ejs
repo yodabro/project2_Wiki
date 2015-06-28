@@ -1,0 +1,7 @@
+<h1>What exactly are you trying to find here?!</h1>
+<dl>
+  <% articles.forEach(function (eachArticle) { %>
+    <dt><a href="/articles/<%= eachArticle._id %>"><%= eachArticle.title %></a></dt>
+    <dd><%= eachArticle.content[0].content %></dd>
+  <% }) %>
+</dl>

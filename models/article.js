@@ -9,7 +9,7 @@ var sectionSchema = Schema({
 var articleSchema = Schema({
   author: String,
   title: String,
-  content: [contentSchema]
+  content: [sectionSchema]
 });
 
 var Section = mongoose.model('Section', sectionSchema);
