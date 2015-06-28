@@ -2,7 +2,7 @@
 
 Hello  Everyone!
 
-![http://www.mytinyphone.com/uploads/users/nony17/491796.gif]()
+![]('http://www.mytinyphone.com/uploads/users/nony17/491796.gif')
 
 We have gathered here to create a Wiki Appa, to get all our knowledge of html/css/JS/node.js/node modules/MongoDB and Mongoose, we will be using jQuery too.
 
