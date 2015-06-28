@@ -12,11 +12,11 @@ First project thats consist of multiple elements and files that all needs to be 
 
 User's while adding the articles will leave a timestamps of adding and if there is and updates they can be easily implemented into the article and the timestamp of the update will be also shown.
 
-In nearest future Dimi's Team planning to implement :
-----------------  >>> user logins(!!! yeah we all  would have our own profiles)
-----------------  >>> secured (!!!) passwords
-----------------  >>> support of the old version of the article if they've been modified
-----------------  >>> comments and comments upon and on changes that has been done to the article
-----------------  >>> some fancy styling ninja-assassin-pirate-viking-netherrealm-codename47-adamjensen stuff!!!
+In nearest future Dimi's Team planning to implement : </br>
+----------------  >>> user logins(!!! yeah we all  would have our own profiles)</br>
+----------------  >>> secured (!!!) passwords</br>
+----------------  >>> support of the old version of the article if they've been modified</br>
+----------------  >>> comments and comments upon and on changes that has been done to the article</br>
+----------------  >>> some fancy styling ninja-assassin-pirate-viking-netherrealm-codename47-adamjensen stuff!!!</br>
 
 Join the fun, stay in touch, we are in NYC till we move to CA! ;)
