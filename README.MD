@@ -2,7 +2,7 @@
 
 Hello  Everyone!
 
-![alt tag](http://imgur.com/AOyYW0c)
+![alt tag](http://i.imgur.com/AOyYW0c.gif)
 
 We have gathered here to create a Wiki Appa, to get all our knowledge of html/css/JS/node.js/node modules/MongoDB and Mongoose, we will be using jQuery too.
 
