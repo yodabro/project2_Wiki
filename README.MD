@@ -2,7 +2,7 @@
 
 Hello  Everyone!
 
-![alt tag](http://static.comicvine.com/uploads/original/10/107566/2118693-ryu_shinkuu_hadouken_gif_by_mathewwite-d2zk3ez.gif)
+![alt tag](http://imgur.com/AOyYW0c)
 
 We have gathered here to create a Wiki Appa, to get all our knowledge of html/css/JS/node.js/node modules/MongoDB and Mongoose, we will be using jQuery too.
 
