@@ -2,7 +2,7 @@
 
 Hello  Everyone!
 
-![]('http://www.mytinyphone.com/uploads/users/nony17/491796.gif')
+![alt tag](http://www.mytinyphone.com/uploads/users/nony17/491796.gif)
 
 We have gathered here to create a Wiki Appa, to get all our knowledge of html/css/JS/node.js/node modules/MongoDB and Mongoose, we will be using jQuery too.
 
@@ -17,6 +17,6 @@ In nearest future Dimi's Team planning to implement : </br>
 ----------------  >>> secured (!!!) passwords</br>
 ----------------  >>> support of the old version of the article if they've been modified</br>
 ----------------  >>> comments and comments upon and on changes that has been done to the article</br>
-----------------  >>> some fancy styling ninja-assassin-pirate-viking-netherrealm-codename47-adamjensen stuff!!!</br>
+----------------  >>> some fancy styling ninja-assassin-pirate-viking-codename47-adamjensen stuff!!!</br>
 
 Join the fun, stay in touch, we are in NYC till we move to CA! ;)
