@@ -20,3 +20,4 @@ In nearest future Dimi's Team planning to implement : </br>
 ----------------  >>> some fancy styling ninja-assassin-pirate-viking-codename47-adamjensen stuff!!!</br>
 
 Join the fun, stay in touch, we are in NYC till we move to CA! ;)
+![alt tag](http://i.imgur.com/ICYpBT8.gif)
