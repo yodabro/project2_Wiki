@@ -3,11 +3,13 @@
   <input id="author" type="text" name="article[author]"><br/>
   <label for="title">Title: </label><br/>
   <input id="title" type="text" name="article[title]"><br/>
-  <label for="section">Section Title: </label><br/>
-  <input id="section" type="text" name="article[content][0][title]"><br/>
-  <label for="content">Section Content:</label><br/>
-  <textarea id="content" name="article[content][0][content]"></textarea><br/>
-  <input id="new-section" type="submit" value="Add a section">
+  <div id="sections">
+    <label for="section-title-0">Section Title: </label><br/>
+    <input id="section-title-0" type="text" name="article[sections][0][title]"><br/>
+    <label for="section-content-0">Section Content:</label><br/>
+    <textarea id="section-content-0" name="article[sections][0][content]"></textarea><br/>
+  </div>
+  <button id="new-section" type="submit">Add a section</button>
   <input type="submit">
 </form>
-<script src="/scripts/newArticle.js"></script>
+<script src="/scripts/articleScript.js"></script>
