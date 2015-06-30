@@ -66,7 +66,7 @@ router.get('/:id/edit', function (req, res) {
 // UPDATE
 router.patch('/:id', function (req, res) {
   var id = req.params.id;
-
+  req.body.article.date=Date.now();
   console.log(req.body.article);
 
   Article.update({_id: id}, req.body.article, function (err, result){

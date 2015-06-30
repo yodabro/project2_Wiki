@@ -1,9 +1,15 @@
-<form action="/articles/<%=article._id%>?_method=PATCH" method="post">
+<div id='edit'><form action="/articles/<%=article._id%>?_method=PATCH" method="post">
   <h1>Edit this article</h1>
-
+  <label for="category">Category: </label><br/>
+  <select name="article[category]" id="category">
+    <option value="Fashion">Fashion</option>
+    <option value="Movies">Movies</option>
+    <option value="Economy">Economy</option>
+    <option value="Games">Games</option>
+    <option value="Sports">Sports</option>
+  </select></br>
   <label>Article Title</label></br>
-  <input type="text" name="article[title]" value="<%= article.title %>" /></br></br>
-
+  <input type="text" name="article[title]" value="<%= article.title %>" /></br>
   <h3>Sections</h3>
   <% article.sections.forEach(function (section, index) { %>
     <label>Title</label><br/>
@@ -14,8 +20,9 @@
     <input type="text"
            name="article[sections][<%= index %>][content]"
            value="<%= section.content %>"><br/>
-  <% }) %>
-
+  <% }) %></br>
   <input type="submit" value="Update article" /></br>
 </form>
+<img src="http://i.imgur.com/7pgy3Qc.gif">
 <script src="/scripts/articleScript.js"></script>
+</div>

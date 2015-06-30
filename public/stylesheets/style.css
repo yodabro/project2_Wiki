@@ -28,7 +28,7 @@ body{
     color: #fff;
     letter-spacing: 0.05em;
     text-transform: uppercase;
-    font-size: 85%;
+    font-size: 70%;
 }
 #home .nav-item a:hover,
 #home .nav-item a:focus {
@@ -65,25 +65,89 @@ font-family: black ops one;
 color:white;
 text-shadow: 0 1px 0 black;
 }
+
 .articles h3{
 font-size: 1.5em;
-color: #F8F8F8;
+color: #FFFF66;
 font-style: italic;
 text-shadow: 0 1px 0 black;
 }
 .articles p{
-width: 95%;
 font-size: 1em;
 color: white;
 letter-spacing: 0.05em;
 text-shadow: 0 1px 0 black;
+background-color: rgba(0, 0, 0, 0.58);
+padding: 1em;
+margin-right: 1%;
+border-radius: 18px;
 }
 .articles a{
  color: white;
+ text-shadow: 0 1px 0 black;
 }
 .artucles a:visited{
   color:white;
 }
 .articles a:hover{
   color:red;
+}
+#new {
+  font-family: monospace;
+  color: #00E600;
+  padding: 2%;
+  letter-spacing: 0.05em;
+  text-shadow: 0 1px 0 black;
+  background-color: rgba(0, 0, 0, 0.58);
+  margin: 5px;
+  border-radius: 15px;
+}
+#new-section {
+  color: green;
+}
+input {
+  color:red;
+}
+#new img{
+  margin-top: -17em;
+  float:right;
+  border-radius: 15px;
+}
+#edit {
+  font-family: monospace;
+  color: #00E600;
+  padding: 2%;
+  letter-spacing: 0.05em;
+  text-shadow: 0 1px 0 black;
+  background-color: rgba(0, 0, 0, 0.58);
+  margin: 5px;
+  border-radius: 15px;
+}
+#edit img{
+  margin-top: -21em;
+  float: right;
+}
+#show {
+  font-family: monospace;
+  color: #00E600;
+  padding: 2%;
+  letter-spacing: 0.05em;
+  text-shadow: 0 1px 0 black;
+  background-color: rgba(0, 0, 0, 0.58);
+  margin: 5px;
+  border-radius: 15px;
+}
+#show a:visited{
+  color:white;
+}
+#show a:hover{
+  color:orange;
+}
+#show a:link{
+  color:yellow;
+}
+#show img{
+  float:right;
+  margin-top: -22em;
+  margin-right: 10em;
 }

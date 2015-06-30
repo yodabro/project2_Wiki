@@ -1,4 +1,4 @@
-<form action="/articles" method="post">
+<div id='new'><form action="/articles" method="post">
   <label for="category">Category: </label><br/>
   <select name="article[category]" id="category">
     <option value="Fashion">Fashion</option>
@@ -8,16 +8,18 @@
     <option value="Sports">Sports</option>
   </select></br>
   <label for="author">Author: </label><br/>
-  <input id="author" type="text" name="article[author]"><br/>
+  <input id="author" type="text" size="21" name="article[author]"><br/>
   <label for="title">Title: </label><br/>
-  <input id="title" type="text" name="article[title]"><br/>
+  <input id="title" type="text" size="21" name="article[title]"><br/>
   <div id="sections">
     <label for="section-title-0">Section Title: </label><br/>
-    <input id="section-title-0" type="text" name="article[sections][0][title]"><br/>
+    <input id="section-title-0" type="text" size="21" name="article[sections][0][title]"><br/>
     <label for="section-content-0">Section Content:</label><br/>
-    <textarea id="section-content-0" name="article[sections][0][content]"></textarea><br/>
+    <textarea id="section-content-0" size="21" name="article[sections][0][content]"></textarea><br/>
   </div>
   <button id="new-section" type="submit">Add a section</button>
   <input type="submit">
 </form>
+<img src="https://zuts.files.wordpress.com/2015/06/tom-hardy-mad-max.gif">
 <script src="/scripts/articleScript.js"></script>
+</div>

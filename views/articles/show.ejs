@@ -1,4 +1,4 @@
-<div class='show'><h1 class='title1'><%= article.title %></h1>
+<div id='show'><h1 class='title1'><%= article.title %></h1>
 <p class='author'><em><%= article.author %></em></p>
 <p class='category'><%= article.category %></p>
 <% for(var i = 0; i < article.sections.length; i++) { %>
@@ -10,4 +10,9 @@
 <form action="/articles/<%= article._id %>/?_method=DELETE" method="post">
   <input type="submit" value="Delete">
 </form>
+
+Last Edit: <%= article.date.toLocaleDateString("en-us", {
+    weekday: "long", year: "numeric", month: "short",
+    day: "numeric", hour: "2-digit", minute: "2-digit"
+}) %>
 </div>
