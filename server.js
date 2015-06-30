@@ -30,11 +30,12 @@ server.get('/', function (req, res) {
   res.render('home.ejs');
 });
 
-mongoose.connect('mongodb://localhost:27017/wiki'); //connecting to mongoose
+mongoose.connect(MONGOURI); //connecting to mongoose
 var db = mongoose.connection;
 
-db.on('error', function () {
+db.on('error', function (err) {
   console.log("Database errors!");
+  console.log(err);
 });
 
 db.once('open', function () {     // what port to listen and mess upon starting of the server
