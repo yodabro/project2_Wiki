@@ -32,6 +32,7 @@ server.get('/', function (req, res) {
 
 mongoose.connect(MONGOURI); //connecting to mongoose
 var db = mongoose.connection;
+console.log(MONGOURI);
 
 db.on('error', function (err) {
   console.log("Database errors!");
