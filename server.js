@@ -7,7 +7,9 @@ var express = require('express'),     // requiring everything we might be needin
     morgan = require('morgan'),
     mongoose = require('mongoose');
 
-    var PORT = process.env.PORT || 1337;
+var PORT = process.env.PORT || 1337;
+var MONGOURI = process.env.MONGOLAB_URI || 'mongodb://localhost:27017/wiki';
+
 
 server.set('views', './views');
 server.set('view engine', 'ejs');  //choosing what engine to use
