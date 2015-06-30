@@ -1,12 +1,15 @@
-<h1>What exactly are you trying to find here?!</h1>
-<dl>
-  <% articles.forEach(function (eachArticle) { %>
-    <dt><a href="/articles/<%= eachArticle._id %>"><%= eachArticle.title %></a></dt>
-    <% eachArticle.sections.forEach(function (section) { %>
-      <dd>
-        <h3><%= section.title %></h3>
-        <p><%= section.content %></p>
-      </dd>
+<div class="articles">
+  <h1>What exactly are you trying to find here?!</h1>
+  <dl>
+    <% articles.forEach(function (eachArticle) { %>
+      <dt><a href="/articles/<%= eachArticle._id %>"><%= eachArticle.title %></a></dt>
+      <% eachArticle.sections.forEach(function (section) { %>
+        <dd>
+          <h3><%= section.title %></h3>
+          <p><%= section.content %></p>
+          <p><%= section.category %></p>
+        </dd>
+      <% }); %>
     <% }); %>
-  <% }); %>
-</dl>
+  </dl>
+</div>

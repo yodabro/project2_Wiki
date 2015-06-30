@@ -1,0 +1,89 @@
+body{
+  background-image: url('http://i.imgur.com/AgB2sak.jpg');
+  background-size: cover;
+}
+/* LAYOUT CSS */
+#home .header {
+    text-align: center;
+    top: auto;
+    margin: 3em auto;
+    opacity: 0.9;
+}
+#home .sidebar {
+    background: rgb(61, 79, 93);
+    color: #fff;
+    opacity: 0.8;
+}
+#home .nav-list {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+#home .nav-item {
+    display: inline-block;
+    *display: inline;
+    zoom: 1;
+}
+#home .nav-item a {
+    background: transparent;
+    border: 2px solid rgb(176, 202, 219);
+    color: #fff;
+    margin-top: 0;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    font-size: 85%;
+}
+#home .nav-item a:hover,
+#home .nav-item a:focus {
+    border: 2px solid rgb(61, 146, 201);
+    text-decoration: none;
+}
+@media (min-width: 48em) {
+    #home .content {
+        padding: 2em 3em 0;
+        margin-left: 25%;
+    }
+    #home .header {
+        margin: 80% 2em 0;
+        text-align: right;
+    }
+    #home .sidebar {
+        position: fixed;
+        top: 0;
+        bottom: 0;
+    }
+}
+.articles h1 {
+  font-family: fantasy;
+  font-size: 3em;
+  color: white;
+  padding-top: 1%;
+  background: -webkit-linear-gradient(black,grey);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.articles dt{
+font-size: 2em;
+font-family: black ops one;
+color:white;
+}
+.articles h3{
+font-size: 1.5em;
+color: blue;
+font-style: italic;
+}
+.articles p{
+width: 95%;
+font-size: 1em;
+background-color: lightgrey;
+color: black;
+}
+.articles a{
+ color: white;
+}
+.artucles a:visited{
+  color:white;
+}
+.articles a:hover{
+  color:red;
+}

@@ -1,4 +1,12 @@
 <form action="/articles" method="post">
+  <label for="category">Category: </label><br/>
+  <select name="article[category]" id="category">
+    <option value="Fashion">Fashion</option>
+    <option value="Movies">Movies</option>
+    <option value="Economy">Economy</option>
+    <option value="Games">Games</option>
+    <option value="Sports">Sports</option>
+  </select></br>
   <label for="author">Author: </label><br/>
   <input id="author" type="text" name="article[author]"><br/>
   <label for="title">Title: </label><br/>

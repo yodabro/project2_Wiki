@@ -1,13 +1,13 @@
-<h1><%= article.title %></h1>
-<p><em><%= article.author %></em></p>
+<div class='show'><h1 class='title1'><%= article.title %></h1>
+<p class='author'><em><%= article.author %></em></p>
+<p class='category'><%= article.category %></p>
 <% for(var i = 0; i < article.sections.length; i++) { %>
-  <h2><%= article.sections[i].title %></h2>
-  <p><%= article.sections[i].content %></p>
+  <h2 class='sectiontitle'><%= article.sections[i].title %></h2>
+  <p class='sectioncontent'><%= article.sections[i].content %></p>
 <% } %>
-
-
 <a href="/articles/<%= article._id %>/edit">Edit</a>
 
 <form action="/articles/<%= article._id %>/?_method=DELETE" method="post">
   <input type="submit" value="Delete">
 </form>
+</div>
