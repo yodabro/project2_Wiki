@@ -7,6 +7,8 @@ var express = require('express'),     // requiring everything we might be needin
     morgan = require('morgan'),
     mongoose = require('mongoose');
 
+    var PORT = process.env.PORT || 1337;
+
 server.set('views', './views');
 server.set('view engine', 'ejs');  //choosing what engine to use
 
@@ -35,7 +37,7 @@ db.on('error', function () {
 
 db.once('open', function () {     // what port to listen and mess upon starting of the server
   console.log("Database Up and kicking");
-  server.listen(1337, function () {
+  server.listen(PORT, function () {
     console.log("Server is up and kicking on a port 1337");
   });
 });
