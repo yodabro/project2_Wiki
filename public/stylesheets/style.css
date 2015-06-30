@@ -7,7 +7,7 @@ body{
     text-align: center;
     top: auto;
     margin: 3em auto;
-    opacity: 0.9;
+    opacity: 1;
 }
 #home .sidebar {
     background: rgb(61, 79, 93);
@@ -15,8 +15,6 @@ body{
     opacity: 0.8;
 }
 #home .nav-list {
-    margin: 0;
-    padding: 0;
     list-style: none;
 }
 #home .nav-item {
@@ -28,7 +26,6 @@ body{
     background: transparent;
     border: 2px solid rgb(176, 202, 219);
     color: #fff;
-    margin-top: 0;
     letter-spacing: 0.05em;
     text-transform: uppercase;
     font-size: 85%;
@@ -66,17 +63,20 @@ body{
 font-size: 2em;
 font-family: black ops one;
 color:white;
+text-shadow: 0 1px 0 black;
 }
 .articles h3{
 font-size: 1.5em;
-color: blue;
+color: #F8F8F8;
 font-style: italic;
+text-shadow: 0 1px 0 black;
 }
 .articles p{
 width: 95%;
 font-size: 1em;
-background-color: lightgrey;
-color: black;
+color: white;
+letter-spacing: 0.05em;
+text-shadow: 0 1px 0 black;
 }
 .articles a{
  color: white;
