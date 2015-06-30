@@ -16,7 +16,7 @@ router.get('/', function (req, res) {
   });
 });
 
-// NEW
+// NEW creating /new articles page
 router.get('/new', function (req, res) {
   res.render('articles/new');
 });
@@ -42,7 +42,7 @@ router.get('/:id', function (req, res) {
   });
 });
 
-// DELETE
+// DELETE to delete artciles we are tired with..
 router.delete('/:id', function (req, res) {
   var id = req.params.id;
   Article.remove({_id:id}, function (err, result){
@@ -54,7 +54,7 @@ router.delete('/:id', function (req, res) {
   })
 });
 
-// EDIT
+// EDIT to make articles more fun
 router.get('/:id/edit', function (req, res) {
   // console.log("starting lookup...");
  Article.findById(req.params.id, function (err,article){
@@ -63,7 +63,7 @@ router.get('/:id/edit', function (req, res) {
  });
 });
 
-// UPDATE
+// UPDATE more fun and interesting
 router.patch('/:id', function (req, res) {
   var id = req.params.id;
   req.body.article.date=Date.now();

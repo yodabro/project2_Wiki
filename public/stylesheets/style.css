@@ -1,3 +1,5 @@
+/* main css style file that contains everything regarding styling that has been done */
+
 body{
   background-image: url('http://i.imgur.com/AgB2sak.jpg');
   background-size: cover;
@@ -146,8 +148,9 @@ input {
 #show a:link{
   color:yellow;
 }
-#show img{
-  float:right;
-  margin-top: -22em;
-  margin-right: 10em;
+
+#git {
+  position: fixed;
+  right: 20px;
+  bottom: 20px;
 }

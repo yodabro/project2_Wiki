@@ -30,7 +30,7 @@ server.get('/', function (req, res) {
   res.render('home.ejs');
 });
 
-mongoose.connect(MONGOURI); //connecting to mongoose
+mongoose.connect(MONGOURI); //connecting to mongoose, updated with heroku stuff, to make it works
 var db = mongoose.connection;
 console.log(MONGOURI);
 
